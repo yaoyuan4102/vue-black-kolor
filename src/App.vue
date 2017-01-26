@@ -2,21 +2,21 @@
   <div id="">
     <common-header></common-header>
     <div class="container">
-      <hello></hello>
+      <welcome></welcome>
     </div>
     <common-footer></common-footer>
   </div>
 </template>
 
 <script>
-  import Hello from './components/Hello'
   import CommonHeader from './components/common/Header.vue';
   import CommonFooter from './components/common/Footer.vue';
+  import Welcome from './components/Welcome.vue';
 
   export default {
     name: 'app',
     components: {
-      Hello,
+      Welcome,
       CommonHeader,
       CommonFooter
     }
