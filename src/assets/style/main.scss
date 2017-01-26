@@ -1,0 +1,39 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Aril', 'sans-serif';
+}
+
+.container {
+  width: 980px;
+}
+
+.container-fluid {
+  width: 980px;
+}
+
+.navbar {
+  min-height: 48px;
+  border-radius: 0px;
+  border: none;
+  background: rgba(0,0,0,0.8);
+}
+
+.navbar-inverse {
+  background: rgba(0,0,0,0.8);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+  font-weight: 200;
+  letter-spacing: normal;
+  //background: rgba(0,0,0,0.8);
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #9d9d9d;
+}
+
+.navbar-brand {
+  margin-left: -15px;
+}

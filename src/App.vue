@@ -1,8 +1,9 @@
 <template>
   <div id="">
     <common-header></common-header>
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <div class="container">
+      <hello></hello>
+    </div>
     <common-footer></common-footer>
   </div>
 </template>
@@ -22,6 +23,6 @@
   }
 </script>
 
-<style>
-
+<style lang="scss">
+  @import "assets/style/main.scss";
 </style>
