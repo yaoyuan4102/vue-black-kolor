@@ -3,9 +3,11 @@
  */
 
 import Welcome from './components/Welcome.vue';
+import * as Paints from './components/paints/index';
 
 var router = [
-    { path: '/', component: Welcome },
+    { path: '/', name: 'Welcome', component: Welcome },
+    { path: '/paints', name: 'Paints', component: Paints.Paints }
 ];
 
 export default router;

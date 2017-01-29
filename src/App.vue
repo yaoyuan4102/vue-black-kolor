@@ -2,7 +2,7 @@
   <div id="">
     <common-header></common-header>
     <div class="container">
-      <welcome></welcome>
+      <router-view></router-view>
     </div>
     <common-footer></common-footer>
   </div>
