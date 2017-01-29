@@ -9,8 +9,7 @@
 </template>
 
 <script>
-  import CommonHeader from './components/common/Header.vue';
-  import CommonFooter from './components/common/Footer.vue';
+  import { CommonHeader, CommonFooter } from './components/common/index';
   import Welcome from './components/Welcome.vue';
 
   export default {
