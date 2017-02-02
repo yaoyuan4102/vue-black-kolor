@@ -1,7 +1,7 @@
 <template>
-    <div class="hello">
+    <div class="header">
         <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
+            <div class="container container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -10,7 +10,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href=""><router-link :to="{name: 'Welcome'}">Brand</router-link></a>
+                    <a class="navbar-brand" href=""><router-link :to="{name: 'Welcome'}"><img src="../../assets/images/brand.jpg" alt="" width="30" height="30"></router-link></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -41,6 +41,10 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
+<style lang="scss">
+    .header {
+        .navbar-brand {
+            padding: 10px 15px;
+        }
+    }
 </style>

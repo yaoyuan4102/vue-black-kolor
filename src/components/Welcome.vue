@@ -1,6 +1,6 @@
 <template>
   <div class="welcome">
-    <img src="../assets/images/logo.jpg" class="img-responsive" alt="">
+    <img src="../assets/images/logo.jpg" class="img-responsive" alt="" width="450" height="522">
   </div>
 </template>
 
@@ -19,7 +19,7 @@ export default {
 <style lang="scss">
   .welcome {
     img {
-      max-width: 450px;
+      max-width: 100%;
       height: auto;
       margin: auto;
     }
