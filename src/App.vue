@@ -2,7 +2,9 @@
   <div id="">
     <common-header></common-header>
     <div class="container">
-      <router-view></router-view>
+      <transition name="component-fade" mode="out-in">
+        <router-view></router-view>
+      </transition>
     </div>
     <common-footer></common-footer>
   </div>
@@ -24,4 +26,5 @@
 
 <style lang="scss">
   @import "assets/style/main.scss";
+  @import "assets/style/transitions.scss";
 </style>
