@@ -6,6 +6,9 @@
         <router-view></router-view>
       </transition>
     </div>
+    <!--<div class="">-->
+      <!--<button class="btn btn-default">Enter</button>-->
+    <!--</div>-->
     <common-footer></common-footer>
   </div>
 </template>
