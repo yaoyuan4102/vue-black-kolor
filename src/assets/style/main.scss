@@ -2,6 +2,7 @@ body {
   padding: 0px;
   margin: 0px;
   font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Aril', 'sans-serif';
+  background-color: #f6f6f6;
 }
 
 .navbar {
@@ -27,5 +28,10 @@ body {
 }
 
 .navbar-brand {
+  margin-top: -5px;
   margin-left: -15px;
+}
+
+.navbar-header {
+  margin-left: 10px;
 }

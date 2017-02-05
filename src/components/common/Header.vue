@@ -10,7 +10,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href=""><router-link :to="{name: 'Welcome'}"><img src="../../assets/images/brand.jpg" alt="" width="30" height="30"></router-link></a>
+                    <a class="navbar-brand" href=""><router-link :to="{name: 'Welcome'}"><img src="../../assets/images/brand.gif" alt="" width="30" height="30"></router-link></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -43,8 +43,8 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
     .header {
-        .navbar-brand {
-            padding: 10px 15px;
+        .navbar-header {
+            margin-left: 10px;
         }
     }
 </style>
