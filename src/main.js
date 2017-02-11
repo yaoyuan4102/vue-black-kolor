@@ -10,7 +10,7 @@ Vue.use(VueRouter);
 Vue.use(VueAwesomeSwiper);
 
 const router = new VueRouter({
-  mode: 'history',
+  //mode: 'history',
   base: __dirname,
   routes: ConfigRouter
 });

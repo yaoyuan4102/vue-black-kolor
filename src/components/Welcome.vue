@@ -1,6 +1,8 @@
 <template>
   <div class="welcome">
-    <img src="../assets/images/logo.jpg" class="img-responsive" alt="" width="450" height="522">
+    <router-link :to="{name: 'Paints'}">
+      <img src="../assets/images/logo.jpg" class="img-responsive" alt="" width="450" height="522">
+    </router-link>
   </div>
 </template>
 

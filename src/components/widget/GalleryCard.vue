@@ -44,7 +44,7 @@
         padding: 10px 15px;
         margin: 10px 0px;
         max-height: 960px;
-        min-height: 600px;
+        min-height: 700px;
         .card-image {
             /*height: 360px;*/
             img {
